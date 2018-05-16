@@ -13,6 +13,7 @@
 		CC5F277620A89B1E00935DEA /* iosUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC5F277420A89B1E00935DEA /* iosUI.xcdatamodeld */; };
 		CC5F277820A89B1E00935DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC5F277720A89B1E00935DEA /* Assets.xcassets */; };
 		CC5F277B20A89B1E00935DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5F277920A89B1E00935DEA /* LaunchScreen.storyboard */; };
+		CCD1AA0320AC5CF1000295E4 /* inputFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1AA0220AC5CF1000295E4 /* inputFormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC5F277720A89B1E00935DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC5F277A20A89B1E00935DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC5F277C20A89B1E00935DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD1AA0220AC5CF1000295E4 /* inputFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputFormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				CC5F276D20A89B1E00935DEA /* AppDelegate.swift */,
 				CC5F276F20A89B1E00935DEA /* ViewController.swift */,
+				CCD1AA0220AC5CF1000295E4 /* inputFormViewController.swift */,
 				CC5F277120A89B1E00935DEA /* Main.storyboard */,
 				CC5F277720A89B1E00935DEA /* Assets.xcassets */,
 				CC5F277920A89B1E00935DEA /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				CC5F277620A89B1E00935DEA /* iosUI.xcdatamodeld in Sources */,
 				CC5F277020A89B1E00935DEA /* ViewController.swift in Sources */,
 				CC5F276E20A89B1E00935DEA /* AppDelegate.swift in Sources */,
+				CCD1AA0320AC5CF1000295E4 /* inputFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
