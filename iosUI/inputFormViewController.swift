@@ -106,6 +106,11 @@ class inputFormViewController: UIViewController {
         
         self.view.addSubview(self.txtInterval)
         
+        // 전송 버튼을 내이게이션 아이템에 추가하고, submit 메소드에 연결
+        let submitBtn = UIBarButtonItem(barButtonSystemItem: .compose, target: self, action: #selector(submit(_:)))
+        
+        self.navigationItem.rightBarButtonItem = submitBtn
+        
         
     
 
@@ -120,6 +125,16 @@ class inputFormViewController: UIViewController {
     // 스테퍼와 상호반응할 액션 메소드
     @objc func presentIntervalValue(_ sender: UIStepper) {
         self.txtInterval.text = ("\(Int(sender.value))분마다")
+    }
+    
+    // 전송 버튼과 상호반응할 메소드
+    @objc func submit(_ sender: Any) {
+        let rvc = ReadViewController()
+        rvc.pEmail = self.paramEmail.text
+        rvc.pUpdate = self.paramUpdate.isOn
+        rvc.pInterval = self.paramInterval.value
+        
+        self.navigationController?.pushViewController(rvc, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

@@ -14,6 +14,7 @@
 		CC5F277820A89B1E00935DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC5F277720A89B1E00935DEA /* Assets.xcassets */; };
 		CC5F277B20A89B1E00935DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5F277920A89B1E00935DEA /* LaunchScreen.storyboard */; };
 		CCD1AA0320AC5CF1000295E4 /* inputFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1AA0220AC5CF1000295E4 /* inputFormViewController.swift */; };
+		CCD1AA0520ADC7F3000295E4 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1AA0420ADC7F3000295E4 /* ReadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CC5F277A20A89B1E00935DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC5F277C20A89B1E00935DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCD1AA0220AC5CF1000295E4 /* inputFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputFormViewController.swift; sourceTree = "<group>"; };
+		CCD1AA0420ADC7F3000295E4 /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CC5F277920A89B1E00935DEA /* LaunchScreen.storyboard */,
 				CC5F277C20A89B1E00935DEA /* Info.plist */,
 				CC5F277420A89B1E00935DEA /* iosUI.xcdatamodeld */,
+				CCD1AA0420ADC7F3000295E4 /* ReadViewController.swift */,
 			);
 			path = iosUI;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				CC5F277020A89B1E00935DEA /* ViewController.swift in Sources */,
 				CC5F276E20A89B1E00935DEA /* AppDelegate.swift in Sources */,
 				CCD1AA0320AC5CF1000295E4 /* inputFormViewController.swift in Sources */,
+				CCD1AA0520ADC7F3000295E4 /* ReadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
